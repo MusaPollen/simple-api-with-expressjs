@@ -117,5 +117,11 @@ app.get('/api/private', checkJwt, function(req, res) {
  * Send REQ
  * **Done** . you should get acces of private api now.
 
- 
-
+## Now Add Scopes
+* In auth0 management dshboard go to applications>api>settings and enable rbac and Add Permissions in the access Token
+* Scroll below and save
+* Now go to User Management
+* Choose which users have which scopes
+* sample user  gabedi3706@inikale.com pass of temp mail asdASD123!@#
+* Now go to 
+* faced error. lacking understanding client credentials flow seems problematic for authenticating user. will have to dig deeper.
